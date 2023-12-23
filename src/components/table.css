@@ -1,0 +1,133 @@
+.table {
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(233, 232, 232);
+}
+.headerTable {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  
+  border-bottom: 1px solid black;
+}
+.namecom{
+  margin: 0 10% 0 3%;
+  width: 20%;
+}
+.namework{
+  margin: 0 15% 0 3%;
+  width: 20%;
+}
+.adres{
+  margin-right: 10%;
+  width: 20%;
+}
+.sotr{
+  margin-right: 5%;
+  width: 20%;
+}
+
+.bodyTable {
+  display: flex;
+  width: 100%;
+  
+}
+.chekANDDelite{
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+.Company {
+  height: 90%;
+  width: 50%;
+  border: 1px solid black;
+}
+.worker {
+  height: 90%;
+  width: 50%;
+  border: 1px solid black;
+}
+.headerCompany, .headerWorker {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid black;
+  align-items: center;
+}
+
+
+.CompanyCard {
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  
+  border-top: 1px solid black;
+  height: 100px;
+}
+.editInput{
+  margin-left: 26%;
+}
+.EditCard{
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  
+  border-top: 1px solid black;
+  height: 100px;
+}
+.dellAll {
+  background-color: rgb(241, 28, 28);
+  border: 3px solid black;
+  margin-top: 5px;
+  height: 35px;
+}
+.CompanyCardSelected {
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  
+  border: 1px solid rgb(38, 113, 233);
+  height: 100px;
+  background-color: rgb(55, 230, 175);
+  color: rgb(0, 0, 0);
+}
+.info {
+  height: 100%;
+  
+  background-color: rgb(96, 167, 234);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  height: 100px;
+  margin-top: 100px;
+}
+.checkDelAll{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  
+}
+.check{
+  height: 20px;
+  width: 20px;
+  
+  
+}
+.BodyWorker, .BodyCompany{
+  
+  width: 50%;
+}
+.BodyCompany{
+  border-right: 1px solid black ;
+}
+.addform{
+  display: flex;
+  justify-content: center;
+  
+}
